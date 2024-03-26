@@ -1,0 +1,491 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+   min-height: fit-content;
+   overflow-x: clip;
+}
+    
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    height: 70px;
+    background-color: #03131f;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.logo a img{
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.logo{
+    margin-top: -10px;
+}
+
+.links a, .logo a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.logo a{
+    color: rgba(15, 9, 79, 0.829);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.home{
+  background: url(./background.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+
+.text{
+    text-align: center;
+    color: rgb(199, 195, 195);
+    padding-top: 140px;
+    font-size: 25px;
+    line-height: 78px;
+}
+.text .name{
+    font-size: 70px;
+    font-weight:900;
+    color: rgb(255, 255, 255);
+}
+.text .skill{
+    display: inline-block;
+    border-top: 3px solid white;
+    border-bottom:  3px solid white;
+   line-height: 45px;
+   color: white;
+}
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -40px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 40px;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    text-transform: uppercase;
+    animation: waviy 1.5s infinite;
+    animation-delay: calc(.05s * var(--i));
+    
+  }
+  @keyframes strong {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+.cards{
+    display: flex;
+    /* justify-content: space-around; */
+    text-align: left;
+    padding-top: 50px;
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(25, 24, 24);
+    padding-bottom: 50px;
+    
+}
+.card1{
+    width: 350px;
+    height: auto;
+    border: 3px solid #e8e8e8;
+    padding: 30px 30px 60px 37px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 100px;
+    line-height: 28px;
+}
+.card2{
+    width: 700px;
+    height: auto;
+    margin-left: 30px;
+    border: 3px solid #e8e8e8;
+    border-radius: 5px;
+    padding: 25px 25px 55px 25px;
+    background-color: white;
+    line-height: 28px;
+}
+.cards h2{
+    font-size: 25px;
+    color:rgb(0, 62, 124) ;
+    font-weight: 600;
+}
+.about{
+    padding-top: 50px;
+    background-color: #F8F9FA;
+    text-align: center;
+    box-shadow: 1px -4px 19px 0px rgba(222,222,222,0.75);
+    -webkit-box-shadow: 1px -4px 19px 0px rgba(222,222,222,0.75);
+    -moz-box-shadow: 1px -4px 19px 0px rgba(222,222,222,0.75);
+}
+.about #h2{
+    font-size: 30px;
+   color: rgb(23, 22, 22);
+   font-weight: 900;
+}
+.about .card2 span{
+    color: rgb(32, 157, 199);
+}
+.about a{
+    color: rgb(19, 19, 19);
+}
+.red{
+    color: rgb(32, 110, 199);
+}
+.career{
+    padding-top: 80px;
+    text-align: center;
+    box-shadow: 1px -4px 19px 0px rgba(222,222,222,0.75);
+    -webkit-box-shadow: 1px -4px 19px 0px rgba(222,222,222,0.75);
+    -moz-box-shadow: 1px -4px 19px 0px rgba(222,222,222,0.75);
+}
+.soft{
+    text-align: left;
+}
+.skills .four, .skills .three, .skills .two{
+display: flex;
+text-align: center;
+align-items: flex-start;
+}
+.four div,.three div, .two div, .one{
+    padding: 40px 0px 40px 0px;
+    height: 120px;
+    width: 160px;
+    border: 2px solid #F8F9FA;
+    background-color: #dddddd;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(23, 22, 22);
+}
+.one{
+    padding: 45px 0px 40px 20px;
+}
+.skills{
+    padding-top: 80px;
+    text-align: center;
+    box-shadow: 1px -4px 19px 0px rgba(222,222,222,0.75);
+    -webkit-box-shadow: 1px -4px 19px 0px rgba(222,222,222,0.75);
+    -moz-box-shadow: 1px -4px 19px 0px rgba(222,222,222,0.75);
+}
+.skillset{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skilltags{
+    color: rgb(32, 99, 199);
+}
+
+.technical ul li{
+    display: flex;
+    list-style-type: none;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 60px;
+    box-shadow: 1px -4px 19px 0px rgba(222,222,222,0.75);
+-webkit-box-shadow: 1px -4px 19px 0px rgba(222,222,222,0.75);
+-moz-box-shadow: 1px -4px 19px 0px rgba(222,222,222,0.75);
+padding-bottom: 70px;
+}
+.part1 h1{
+font-size: 35px;
+text-align: left;
+color:  rgb(32, 115, 199);
+}
+.part2 h1{
+    color:  rgb(32, 124, 199);
+    font-size: 25px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0px 80px 0px ;
+  
+}
+.footer div{
+    display: flex;
+}
+.contact .hr{
+    color: rgb(0, 75, 128);
+}
+.footer .userimage{
+    margin-top: -30px;
+}
+.footer2{
+    display: flex;
+    justify-content: space-around;
+}
+.email a{
+    text-decoration: none;
+    color: black;
+}
+
+.copy{
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+.nav .links a:hover{
+    color: rgb(32, 152, 199);
+}
+
+@media only screen and (max-width: 1000px)  {
+   .about .cards{
+    display: block;
+   }
+   .card1{
+   margin: auto;
+   margin-bottom: 30px;
+   }
+   .card2{
+    margin: auto;
+   }
+   .career .cards{
+    display: block;
+   }
+   .skills .skillset{
+    display: block;
+   }
+   .four div,.three div, .two div, .one{
+    padding: 35px 0px 20px 0px;
+    height: 100px;
+    width: 120px;
+    font-size: 14px;
+   
+}
+.soft{
+    margin-bottom: 100px;
+}
+.waviy{
+    font-size: 20px;
+}
+
+}
+
+@media only screen and (max-width: 800px){
+    .text{
+       
+        font-size: 20px;
+    }
+    .text .name{
+        font-size: 50px;
+      
+    }
+    .text .skill{
+       font-size: 20px;
+    }
+
+    .card2{
+        width: 500px;
+    }
+    .skillset .skilltags{
+        text-align: center;
+    }
+    .footer div{
+        display: block;
+    }
+   .footer2{
+    display: block;
+   }
+   .part1 p, .part1 h1{
+    text-align: center;
+   }
+   .part1 h1, .part2 h1{
+    font-size: 16px;
+   }
+   .part1 p{
+    font-size: 12px;
+   }
+   .waviy{
+    font-size: 15px;
+}
+  
+}
+@media only screen and (max-width: 600px){
+    .text{
+       padding-top: 280px;
+        line-height: 30px;
+    }
+    .nav .links #home{
+        font-size: 13px;
+    }
+    .text{
+       
+        font-size: 16px;
+    }
+    .text .name{
+        font-size: 28px;
+      
+    }
+    .text .skill{
+       font-size: 16px;
+    }
+    .logo a{
+        font-size: 14px;
+    }
+    .card1{
+        font-size: 12px;
+    }
+
+    .card2{
+        width: 400px;
+        font-size: 12px;
+    }
+    .four div,.three div, .two div, .one{
+        padding: 25px 0px 20px 0px;
+        height: 60px;
+        width: 80px;
+        font-size: 8px;
+       
+    }
+    .skillset .skilltags{
+        text-align: center;
+    }
+  .skills .technical ul li p{
+   font-size: 10px;
+    }
+    .nav a:not(:first-child) {display: none;}
+    .nav a.icon {
+      float: right;
+      display: block;
+    }
+    .nav.responsive {position: relative;}
+    .nav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .waviy{
+        font-size: 12px;
+    }
+  }
+
+  #downloadButton {
+    padding: 5px 200px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  #downloadButton:hover {
+    background-color: #3d3b3b;
+  }
+
+
+
+
+@media only screen and (max-width: 440px){
+    .text{
+       
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .waviy span{
+        font-size: 8px;
+    }
+    .text .name{
+        font-size: 18px;
+      
+    }
+    .text .skill{
+       font-size: 10px;
+    }
+    .logo a{
+        font-size: 13px;
+    }
+    .card1{
+        font-size: 12px;
+    }
+
+    .card2{
+        width: 350px;
+        font-size: 12px;
+    }
+    .four div,.three div, .two div, .one{
+        padding: 25px 0px 20px 0px;
+        height: 60px;
+        width: 80px;
+        font-size: 8px;
+       
+    }
+    .skillset .skilltags{
+        text-align: center;
+    }
+    .waviy{
+        font-size: 10px;
+    }
+}
+
+
+#downloadButton {
+    padding: 5px 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #downloadButton:hover {
+    background-color: #3d3b3b;
+  }
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+#navbar.fixed {
+    position: fixed;
+    box-shadow: 5px 5px 19px 0px rgba(0, 0, 0, 0.5);
+  }
+  #navbar.fixed ul li img {
+    height: 36px;
+  }
+  #navbar.fixed ul li a {
+    font-size: 14px;
+  }
